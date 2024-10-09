@@ -1,0 +1,89 @@
+.team-page {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input, select {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.create-button, .edit-button, .delete-button, .update-button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-button {
+    background-color: #28a745;
+}
+
+.create-button:hover {
+    background-color: #218838;
+}
+
+.edit-button {
+    background-color: #007bff;
+}
+
+.edit-button:hover {
+    background-color: #0069d9;
+}
+
+.delete-button {
+    background-color: #dc3545; 
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.update-button {
+    background-color: #17a2b8; 
+}
+
+.update-button:hover {
+    background-color: #138496; 
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+}
+
+.project-info {
+    width: 300px;
+    padding-left: 20px; 
+    text-align: left; 
+}
+
+.project-name {
+    width: 300px;
+    font-weight: bold;
+}
+
+.project-buttons {
+    display: flex; 
+    gap: 5px; 
+}

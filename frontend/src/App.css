@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  flex: 1;
+}
+
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  background: #007bff;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  background: #007bff;
+  color: white;
+  width: 100%;
+}
